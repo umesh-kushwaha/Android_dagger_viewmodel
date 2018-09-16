@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Common</string>
+
+    <string name="account_details">Account Details</string>
+    <string name="customer_name">Customer Name*</string>
+    <string name="account_number">Account Number*</string>
+    <string name="ifsc_code">IFSC Code*</string>
+    <string name="bank_address">Bank Address</string>
+    <string name="gstin_optional">GSTIN (optional)</string>
+    <string name="address_details">Address Details</string>
+    <string name="phone_number">Phone number*</string>
+    <string name="state">State</string>
+    <string name="pin_code">Pin Code*</string>
+    <string name="land_mark">Land Mark</string>
+    <string name="address_2">Address 2</string>
+    <string name="address_1">Address 1*</string>
+    <string name="add_my_shop">Add my shop</string>
+    <string name="email">Email*</string>
+    <string name="contact_no">Contact no</string>
+    <string name="shop_details">Shop Details</string>
+    <string name="shop_name">Shop Name*</string>
+    <string name="rs">\u20B9</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="order_list_title">Order List</string>
+</resources>

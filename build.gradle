@@ -1,0 +1,60 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://maven.google.com'  }
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.0-beta01'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+        classpath 'android.arch.navigation:navigation-safe-args-gradle-plugin:1.0.0-alpha02'
+
+        classpath 'android.arch.navigation:navigation-safe-args-gradle-plugin:1.0.0-alpha01'
+        //classpath 'com.google.gms:google-services:4.0.0'
+
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+
+ext {
+    // sdk and tools
+    //noinspection GradleIdeError
+    minSdkVersion = 17
+    targetSdkVersion = 27
+    compileSdkVersion = 27
+    buildToolsVersion = '27.0.3'
+    // dependencies versions
+    constraintLayoutVersion = '1.1.0'
+    supportLibraryVersion = '27.1.1'
+    archVersion = '1.1.0'
+    retrofitVersion = '2.3.0'
+    okhttpIntererceptorVersion = '3.9.0'
+    daggerVersion = '2.13'
+    junitVersion = '4.12'
+    supportTestRunnerVersion = '1.0.1'
+    espressoCoreVersion = '3.0.1'
+    glideVersion='4.4.0'
+    room_version = "1.0.0"
+    nav_version = "1.0.0-alpha01"
+    work_version = "1.0.0-alpha02"
+
+
+}
